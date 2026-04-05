@@ -10,12 +10,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ── Mount routes ─────────────────────────────────────────
+//  Mount routes 
 app.use('/api/customers', customerRoutes);
 app.use('/api/items',     itemRoutes);
 app.use('/api/invoices',  invoiceRoutes);
 
-// ── DB setup (create tables if missing) ──────────────────
+//  DB setup (create tables if missing) 
 async function setupDB() {
   try {
     await pool.query(`
