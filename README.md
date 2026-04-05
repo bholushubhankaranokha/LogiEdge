@@ -76,8 +76,8 @@ logiEdge/
 
 ## 🌐 Deployment 
 
-### 🚀 Backend - Vercel (Backend)
 ### 🚀 Frontend - Vercel
+### 🚀 Backend - Render
 ### 🛢️ Database - PostgreSQL hosted on Neon
 
 ---
